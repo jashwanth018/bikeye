@@ -55,27 +55,6 @@ Accelerometer monitors continuously
        ├──► Telegram bot sends image + "Movement Detected" alert to owner
        │
        └──► Servo motor locks ignition (bike immobilized)
-```
-
-
-
-
-## 📁 Project Structure
-
-```
-BIKEYE/
-├── src/
-│   └── bikeye.ino          # Main Arduino sketch
-├── circuit/
-│   └── schematic.png       # Circuit diagram
-├── docs/
-│   └── report.pdf          # Project documentation
-├── images/
-│   └── setup.jpg           # Hardware setup photos
-└── README.md
-```
-
-
 
 ---
 
