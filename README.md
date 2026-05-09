@@ -70,45 +70,6 @@ Accelerometer monitors continuously
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Arduino IDE with ESP32 board support installed
-- Telegram account + Bot token (via [@BotFather](https://t.me/BotFather))
-- Required Arduino Libraries:
-  - `ESP32CAM`
-  - `UniversalTelegramBot`
-  - `WiFi.h`
-  - `Wire.h` (for accelerometer)
-  - `ESP32Servo`
-
-### Setup
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/yourusername/BIKEYE.git
-   cd BIKEYE
-   ```
-
-2. **Configure credentials**  
-   Open the main `.ino` file and update:
-   ```cpp
-   const char* ssid = "YOUR_WIFI_SSID";
-   const char* password = "YOUR_WIFI_PASSWORD";
-   String BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-   String CHAT_ID = "YOUR_CHAT_ID";
-   ```
-
-3. **Upload to ESP32-CAM**  
-   Select `AI Thinker ESP32-CAM` as the board in Arduino IDE and upload.
-
-4. **Mount hardware**  
-   - Attach accelerometer to the bike handle
-   - Connect servo to ignition system
-   - Attach buzzer and power via rechargeable battery
-
----
 
 ## 📁 Project Structure
 
@@ -125,11 +86,7 @@ BIKEYE/
 └── README.md
 ```
 
----
 
-## 📷 System Demo
-
-> *(Add your hardware setup photos and demo screenshots here)*
 
 ---
 
@@ -147,17 +104,12 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 👤 Author
 
 **Your Name**  
-📧 your.email@example.com  
-🔗 [GitHub](https://github.com/yourusername)
+📧 gjashwanthreddy18@gmail.com.com  
+🔗 [GitHub](https://github.com/jashwanth018)
 
 ---
 
