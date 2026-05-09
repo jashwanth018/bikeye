@@ -57,18 +57,7 @@ Accelerometer monitors continuously
        └──► Servo motor locks ignition (bike immobilized)
 ```
 
----
 
-## 📡 Tech Stack
-
-- **Microcontroller:** ESP32-CAM
-- **Communication:** Wi-Fi (Telegram Bot API)
-- **Sensor:** ADXL345 / MPU6050 Accelerometer
-- **Actuator:** Servo Motor (SG90 or similar)
-- **Notification Platform:** Telegram Bot
-- **Programming Language:** C++ (Arduino IDE)
-
----
 
 
 ## 📁 Project Structure
