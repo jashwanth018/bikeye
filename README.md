@@ -36,28 +36,6 @@ BIKEYE — A smart IoT-based bike theft detection system using ESP32-CAM, accele
 
 ---
 
-## 🔄 How It Works
-
-```
-Bike is stationary
-       │
-       ▼
-Accelerometer monitors continuously
-       │
-  Movement detected?
-       │
-      YES
-       │
-       ├──► ESP32-CAM captures image of intruder
-       │
-       ├──► Buzzer activates (audible alarm)
-       │
-       ├──► Telegram bot sends image + "Movement Detected" alert to owner
-       │
-       └──► Servo motor locks ignition (bike immobilized)
-
----
-
 ## 🛡️ Security & Privacy
 
 - Images are only captured and transmitted upon confirmed motion detection
@@ -80,5 +58,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 🔗 [GitHub](https://github.com/jashwanth018)
 
 ---
-
 > *BIKEYE — Because your bike deserves an eye.* 👁️
+---
+
+
